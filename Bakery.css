@@ -1,0 +1,343 @@
+@font-face {
+	font-family: Tehzeeb;
+	src: url(../Overlock_SC/OverlockSC-Regular.ttf);
+}
+
+*{
+	box-sizing: border-box;
+	padding:0%;
+	margin: 0%;
+}
+body{
+	background-color: black;
+	color: white;
+	font-family:sans-serif;
+    overflow-x: hidden;
+}
+h1{font-family: Tehzeeb;}
+p,div{font-family: Inter, sans-serif}
+/*header*/
+.header .container-fluid{padding-left: 0px}
+.logo{
+	background-image: url(../Images/what.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 80px;
+	width: 80px;
+	margin: 0;
+}
+.na{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(255, 255, 255);
+	position: fixed;
+	top: 10;
+}
+.link{
+	display: flex;
+	list-style: none;
+	margin-bottom: 0px;
+}
+.list a{
+	margin: 30px;
+	font-size: 22px;
+	color: #583422;
+	text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 2px 6px;
+}
+.list a:hover{
+	color: #583422;
+	background-color: #f7d7d2;
+	padding: 2px 6px;
+	border-radius: 10px;
+    border: 1px solid #f7d7d2;
+}
+/*header*/
+
+/*about*/
+.third {
+	text-align: center;
+	color: #583422;
+	font-size: 50px;
+}
+.about-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.about-content h3{
+	font-family: Tehzeeb;
+	color: #583422;
+}
+.about-content p{text-align: center;}
+.about-btn {
+	text-align: center!important;
+}
+/*about*/
+
+/*card*/
+.pro{
+	padding-top: 80px;
+	text-align: center;
+	background-color: #fdd5c9;
+}
+.pro h1, .special-head h1, .want-order h1{
+	font-size: 50px;
+	font-weight: 600;
+	color: #7c3d1e;
+	padding-bottom: 10px;
+}
+.pro p{
+	font-size: 20px;
+	white-space: 5px;
+	letter-spacing: 2px;
+	padding-bottom: 45px;
+	color: #7c3d1e;
+}
+.cards{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.item{padding: 2px;}
+.item .card_image{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+.item div img{
+	width: 300px;
+	padding: 20px;
+}
+.item div h1{
+	color: #7c3d1e;
+	font-size: 40px;
+	font-weight: 600;
+}
+/*.cards div h6{
+	color: black;
+	font-size: 18px;
+	padding-left: 10px;
+	display: inline-block;
+}
+.cards div span{
+	color: #9E9E9E;
+	font-size: 16px;
+}*/
+.card_btn{
+	background-color: #fedfda;
+	color:  #7c3d1e;
+	border: 1px solid #7c3d1e;
+	padding: 8px 15px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.card_btn:hover{
+	border: 1px solid #7c3d1e;
+	background-color: #7c3d1e;
+	color: #fedfda;
+}
+/*card*/
+
+/*special*/
+.special{background-color:#f6d79040;padding-bottom: 80px}
+.special-head{
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.special-one{font-size: 18px!important;padding-bottom: 20px}
+/*special*/
+
+/*order*/
+.want-order{
+	background-image: url(../Images/Bakery39.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+}
+.want-order p{
+	color: #7c3d1e;
+	text-align: center;
+}
+.want-order button{
+	margin-top: 20px!important;
+}
+.order{
+	height: 250px;
+	text-align: center;
+	padding-top: 80px;
+	color: skyblue;
+}
+.forf{
+	height: 780px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 250px;
+}
+form{
+	background-color: skyblue;
+	color: black;
+	border: 2px solid white;
+	padding: 30px;
+}
+fieldset{
+	padding: 50px 50px;
+}
+::placeholder{
+	color: black;
+}
+fieldset > input{
+	padding: 15px;
+	border: 2px solid white;
+	border-radius: 10px;
+	color: deepskyblue;
+	font-weight: bold;
+	width: 835px;
+}
+fieldset > label{
+	margin-right: 2px;
+	border: 2px solid white;
+	padding: 14px;
+	border-radius: 10px;
+	background-color: white;
+	font-size: 14px;
+	font-family: emoji;
+}
+.Date{
+	width: 687px;
+	padding: 14px;
+}
+select{
+	padding: 15px;
+	border: 2px solid white;
+	border-radius: 10px;
+	color: deepskyblue;
+	font-weight: bold;
+	width: 835px;	
+}
+.button{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+.send{
+	background-color: black;
+	color: skyblue;
+	padding: 15px;
+	border-radius: 7px;
+	border: 2px solid black;
+	width: 400px;
+	height: auto;
+	box-shadow: 5px 5px 6px 2px gray;
+	display: inline-block;
+}
+.send:hover{
+	background-color: skyblue;
+	color: black;
+	box-shadow: 5px 5px 6px 2px white;
+}
+.rating{
+	background-color: white;
+	color: deepskyblue;
+	font-size: 10px;
+	border-radius: 10px;
+	padding: 5px;
+	padding-bottom: 0px;
+	border: 2px solid white;
+	text-align: center;
+}
+.star{
+	display: inline-block;
+	direction: rtl;
+}
+.us{
+	font-family: emoji;
+	font-weight: bold;
+	display: inline-block;
+}
+.star input{
+	cursor: pointer;
+	appearance: none;
+	-webkit-appearance: none;
+	gap: 40px;
+}
+.star input::before{
+	content: '\f005';
+	font-family: fontAwesome;
+	font-size: 20px;
+	color: deepskyblue;
+}
+.astar{
+	text-decoration: none;
+}
+.star input:hover~input::before,
+.star input:hover::before,
+.star input:checked~input::before,
+.star input:checked::before
+{
+	color: goldenrod;
+}
+
+/*order*/
+/*arrow*/
+.go-to-top{
+	background-color: #fff;
+	color: black;
+	padding: 6px 10px;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+.footer{
+		height: 600px;
+		background-color: #fedfda;
+		padding-top: 100px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: start;
+}
+.footer div p{
+	cursor: pointer;
+	font-size: 12px!important;
+}
+.footer div p:hover{
+	color: #bf6d5f;
+}
+.footer div p button,.footer div p input{
+	margin: 0px;
+	font-size: 12px;
+	background-color: #fedfda;
+}
+.footer div p input:hover{background-color: #fedfda;}
+.info-icon{
+	cursor: pointer;
+	text-decoration: none;
+	padding: 13px 0px;
+	border-radius: 50%;
+}
+
+
